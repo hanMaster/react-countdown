@@ -1,26 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CountDown from './components/CountDown/CountDown';
 
-function App() {
+
+export default () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <h3>Отсчет до 30 января 12:00:00</h3>
+      <CountDown date="2020-01-30 12:00:00" />
+    </>
+  )
 }
 
-export default App;

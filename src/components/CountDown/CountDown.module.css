@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.CountDown {
+  font-family: monospace, sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 800;
+  border: 1px solid #bebebe;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 4px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 0.7rem;
+}
+.titleSeparator {
+  /* display: block; */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fc8a15;
+}
+
+/* .days,
+.hours,
+.mins,
+.seconds {
+  position: relative;
+}
+.days::before,
+.hours::before,
+.mins::before,
+.seconds::before {
+  position: absolute;
+  font-family: Montserrat, sans-serif;
+  left: 10px;
+  bottom: -15px;
+  font-size: 0.8rem;
+}
+.days::before {
+  content: "Дни";
+}
+
+.hours::before {
+  content: "Часы";
+}
+
+.mins::before {
+  content: "Минуты";
+}
+
+.seconds::before {
+  content: "Секунды";
+}
+
+.separator {
+  position: relative;
+}
+
+.separator::after {
+  position: absolute;
+  font-family: Montserrat, sans-serif;
+  left: 17px;
+  bottom: -10px;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fc8a15;
+} */
