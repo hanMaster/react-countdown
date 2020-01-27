@@ -61,7 +61,7 @@ class CountDown extends Component {
         <div className={classes.section}>
           <div className={classes.column}>
             <span className={classes.separator}>:</span>
-            <span className={classes.titleSeparator}></span>
+            {/* <span className={classes.titleSeparator}></span> */}
           </div>
         </div>
 
@@ -75,7 +75,7 @@ class CountDown extends Component {
         <div className={classes.section}>
           <div className={classes.column}>
             <span className={classes.separator}>:</span>
-            <span className={classes.titleSeparator}></span>
+            {/* <span className={classes.titleSeparator}></span> */}
           </div>
         </div>
 
@@ -89,7 +89,7 @@ class CountDown extends Component {
         <div className={classes.section}>
           <div className={classes.column}>
             <span className={classes.separator}>:</span>
-            <span className={classes.titleSeparator}></span>
+            {/* <span className={classes.titleSeparator}></span> */}
           </div>
         </div>
 
